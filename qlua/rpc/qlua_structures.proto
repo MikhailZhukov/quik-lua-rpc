@@ -4,6 +4,8 @@ syntax = "proto3";
 
 package qlua.structs;
 
+option go_package   = "go-quik/proto_gen";
+
 // Текущие позиции по бумагам
 // Торговые счета
 // Отчеты по сделкам для исполнения

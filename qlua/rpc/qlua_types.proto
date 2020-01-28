@@ -4,6 +4,8 @@ syntax = "proto3";
 
 package qlua.types;
 
+option go_package   = "go-quik/proto_gen";
+
 message TableEntry {
 
     string k = 1;

@@ -4,6 +4,8 @@ syntax = "proto3";
 
 package qlua.events;
 
+option go_package   = "go-quik/proto_gen";
+
 enum EventType {
 
     EVENT_TYPE_UNKNOWN = 0;

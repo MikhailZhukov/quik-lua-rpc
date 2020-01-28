@@ -6,6 +6,7 @@ package qlua.rpc.RGB;
 
 option optimize_for = SPEED;
 option java_package = "qlua.rpc";
+option go_package   = "go-quik/proto_gen";
 
 // NB: на самом деле, библиотечная функция RGB должна называться BGR, ибо она выдаёт числа именно в этом формате. В SetColor, однако, тоже ожидается цвет в формате BGR, так что это не баг, а фича.
 message Args {

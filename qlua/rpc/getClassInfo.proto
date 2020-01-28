@@ -8,6 +8,7 @@ import "qlua/rpc/qlua_structures.proto";
 
 option optimize_for = SPEED;
 option java_package = "qlua.rpc";
+option go_package   = "go-quik/proto_gen";
 
 message Args {
     string class_code = 1;

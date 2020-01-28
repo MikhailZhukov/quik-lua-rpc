@@ -6,6 +6,7 @@ package qlua.rpc.bit.bxor;
 
 option optimize_for = SPEED;
 option java_package = "qlua.rpc.bit";
+option go_package   = "go-quik/proto_gen/bit";
 
 message Args {
 
